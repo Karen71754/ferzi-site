@@ -20,3 +20,10 @@
 .doom-definition blockquote{margin:25px 0;padding:17px 20px;border-top:1px solid #76232b;border-bottom:1px solid #76232b;background:linear-gradient(90deg,#4a0b1255,transparent);color:#f0d6d5;font:bold 17px/1.7 Georgia,serif;text-shadow:0 0 18px #85131c}
 .doom-definition .definition-last{margin:23px 0 0;color:#e0a3a5;font-weight:bold}
 @media(max-width:760px){.doom-definition{padding:24px 18px 24px 23px}.doom-definition p{font-size:13px}.doom-definition blockquote{font-size:15px;padding:14px}}
+
+
+.case-story .case-chapter{margin:25px 0 12px;padding-left:12px;border-left:2px solid #a52a32;color:#d77b80;font: bold 12px/1.6 Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.case-story .case-chapter + p{margin-top:0}
+.case-story blockquote + blockquote{margin-top:12px}
+.case-story strong{color:#e5c4c4}
+.case-story .case-date{color:#d77b80;font-size:10px;letter-spacing:.18em}

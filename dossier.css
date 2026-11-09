@@ -42,3 +42,10 @@ body.cursor-active .cursor-aura{opacity:1}
 .chigur-placeholder{display:grid;place-items:center;background:radial-gradient(ellipse,#3b171b,#10090a 70%)}
 .chigur-placeholder span{font:150px Georgia,serif;color:#a83a42;text-shadow:0 0 45px #78121c}
 @media(max-width:760px){.nickname-grid{grid-template-columns:1fr}.nickname-card{min-height:165px}}
+
+/* CHIGUR — NAME THAT BECAME A NICKNAME */
+.nickname-card-featured{border:2px solid #c43a42;background:linear-gradient(145deg,#351116,#13090b);box-shadow:0 0 0 4px rgba(196,58,66,.12),0 0 28px rgba(196,58,66,.22);min-height:210px}
+.nickname-card-featured:before{content:"";position:absolute;inset:7px;border:1px solid rgba(196,58,66,.35);pointer-events:none}
+.nickname-card-featured .nickname-index{color:#f07878}
+.nickname-card-featured h3{color:#fff0e8;text-shadow:0 0 18px rgba(196,58,66,.55);font-size:30px}
+.nickname-card-featured .nickname-description{color:#f0c5bd;font-size:14px;min-height:0;position:relative;z-index:1}

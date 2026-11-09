@@ -38,7 +38,7 @@ h1{font:bold clamp(68px,13vw,132px)/.85 Georgia,serif;letter-spacing:.18em;margi
 .card-label{font-size:8px;letter-spacing:.22em;color:#d3b875}
 .person h3{font:bold 29px Georgia,serif;text-align:center;letter-spacing:.22em;color:#f0d48b;text-shadow:0 3px 12px #000;margin:12px 0}
 .person p{color:#e0d5c1;line-height:1.65;text-align:center;text-shadow:0 2px 8px #000;font-size:12px}
-.details{width:100%;margin-top:15px;background:rgba(8,7,5,.78);border:1px solid #b08a48;color:#e4c783;padding:14px;font-size:9px;letter-spacing:.16em;font-weight:bold;cursor:pointer}
+.details{display:block;text-align:center;text-decoration:none;width:100%;margin-top:15px;background:rgba(8,7,5,.78);border:1px solid #b08a48;color:#e4c783;padding:14px;font-size:9px;letter-spacing:.16em;font-weight:bold;cursor:pointer}
 .details span{margin-left:12px;font-size:14px}.details:hover{background:rgba(176,138,72,.28)}
 .person-pending{background:radial-gradient(ellipse at 50% 40%,#3a2b18,#11100d 72%);justify-content:space-between}
 .pending-mark{font-size:115px;text-align:center;color:#b99a55;opacity:.65;text-shadow:0 0 35px #8a672b;margin:auto 0}

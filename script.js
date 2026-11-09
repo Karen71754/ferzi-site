@@ -1,1 +1,1 @@
-document.querySelectorAll('.details').forEach(button=>{button.addEventListener('click',()=>{const person=button.dataset.person;if(person==='Чигур'){alert('Досье Чигура появится в архиве позже.');return;}alert('Досье «'+person+'» готовится к публикации.');});});
+// Character cards now use direct links to standalone dossier pages.

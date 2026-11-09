@@ -49,3 +49,13 @@ body.cursor-active .cursor-aura{opacity:1}
 .nickname-card-featured .nickname-index{color:#f07878}
 .nickname-card-featured h3{color:#fff0e8;text-shadow:0 0 18px rgba(196,58,66,.55);font-size:30px}
 .nickname-card-featured .nickname-description{color:#f0c5bd;font-size:14px;min-height:0;position:relative;z-index:1}
+
+/* KARAHAN — ARCHIVE MISSTEPS */
+.misstep-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:25px 0 70px}
+.misstep-card{position:relative;overflow:hidden;padding:25px 24px 22px;border:1px solid rgba(190,55,38,.48);background:linear-gradient(145deg,#251014,#100b0b 72%);box-shadow:inset 4px 0 0 rgba(170,38,43,.55),0 12px 35px rgba(0,0,0,.2)}
+.misstep-card:after{content:"";position:absolute;right:-36px;top:-45px;width:145px;height:145px;border:1px solid rgba(190,55,38,.18);border-radius:50%;box-shadow:0 0 0 12px rgba(190,55,38,.035),0 0 0 26px rgba(190,55,38,.025);pointer-events:none}
+.misstep-index{display:block;color:#d66a65;font-size:8px;letter-spacing:.2em}
+.misstep-card h3{position:relative;z-index:1;margin:20px 0 14px;color:#f0d6c8;font:30px Georgia,serif;letter-spacing:.12em}
+.misstep-card p{position:relative;z-index:1;margin:0;color:#c0aa9e;font:13px/1.9 Georgia,serif}
+.misstep-stamp{display:inline-block;position:relative;z-index:1;margin-top:20px;padding:7px 9px;border:1px solid rgba(190,55,38,.4);color:#c66b65;font-size:8px;letter-spacing:.16em;transform:rotate(-1deg)}
+@media(max-width:760px){.misstep-grid{grid-template-columns:1fr}.misstep-card{padding:22px 19px}}

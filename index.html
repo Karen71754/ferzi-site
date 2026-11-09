@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<title>ФЕРЗИ — Судный День</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="#">ФЕРЗИ<span> / ЗАКРЫТЫЙ АРХИВ</span></a><span class="status">● СИСТЕМА АКТИВНА</span></header>
+<main>
+<section class="hero">
+  <div class="eyebrow">ДОСТУП К МАТЕРИАЛАМ ОГРАНИЧЕН</div>
+  <div class="queens" aria-hidden="true"><span>♛</span><span>♛</span></div>
+  <h1>ФЕРЗИ</h1><p class="subtitle">СУДНЫЙ ДЕНЬ</p>
+  <p class="intro">Архив событий, личностей и решений, которые не должны были попасть в историю.</p>
+  <button id="enter">ВОЙТИ В АРХИВ <b>↗</b></button>
+  <div class="hero-foot"><span>ДОСЬЕ № 001—003</span><span>ДОСТУП ПО ПАРОЛЮ</span></div>
+</section>
+<section class="section" id="people">
+ <div class="section-head"><div><small>ЛИЧНЫЕ ДЕЛА</small><h2>Фигуранты архива</h2></div><span>01 / 03</span></div>
+ <div class="cards">
+  <article class="person person-photo" style="--portrait:url('assets/karahan.jpg')">
+   <div class="num">ДОСЬЕ № 001</div><div class="person-copy"><h3>КАРАХАН</h3><p>Личное дело участника архива.</p><button class="details" data-person="Карахан">ОТКРЫТЬ ДОСЬЕ ↗</button></div>
+  </article>
+  <article class="person person-pending">
+   <div class="num">ДОСЬЕ № 002</div><div class="pending-mark">♟</div><div class="person-copy"><h3>ЧИГУР</h3><p>Портрет и материалы будут добавлены позже.</p><button class="details" data-person="Чигур">ОТКРЫТЬ ДОСЬЕ ↗</button></div>
+  </article>
+  <article class="person person-photo" style="--portrait:url('assets/sergs.jpg')">
+   <div class="num">ДОСЬЕ № 003</div><div class="person-copy"><h3>СЕРГС</h3><p>Личное дело участника архива.</p><button class="details" data-person="Сергс">ОТКРЫТЬ ДОСЬЕ ↗</button></div>
+  </article>
+ </div>
+</section>
+<section class="section archive"><small>ХРОНИКА СООБЩЕСТВА</small><h2>Легендарные моменты ФЕРЗЕЙ</h2><p>Фотографии, истории и события появятся здесь позже.</p></section>
+<footer>ФЕРЗИ © 2026 <span>АРХИВ СОЗДАН. ИСТОРИЯ ПРОДОЛЖАЕТСЯ.</span></footer>
+</main>
+<div class="modal" id="modal"><div class="dialog"><button class="close" id="close">×</button><small>ПРОВЕРКА ПОЛНОМОЧИЙ</small><h2>Вход в архив</h2><p>Введите общий пароль для доступа к материалам.</p><input id="password" type="password" placeholder="Пароль"><p class="hint" id="hint">Демонстрационный пароль: FERZI-DEMO</p><button id="login">ПОДТВЕРДИТЬ ДОСТУП</button></div></div>
+<script src="script.js"></script>
+</body></html>

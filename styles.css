@@ -48,3 +48,4 @@ h1{font:bold clamp(68px,13vw,132px)/.85 Georgia,serif;letter-spacing:.18em;margi
 footer{padding:25px 6vw;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #29251d}footer .brand{font-size:13px}
 @media(max-width:760px){.top{padding:0 18px;height:64px}.brand span{display:none}.nav{gap:14px}.nav a{font-size:8px}.status{display:none}.hero{min-height:630px;padding-top:65px}.crown{font-size:92px}.hero:before{left:4%}.hero:after{right:4%}.hero-side{display:none}.hero-meta{margin-top:50px;font-size:8px}.section{padding:65px 20px}.section h2{font-size:34px}.cards{grid-template-columns:1fr}.person{min-height:460px}.chronicle{gap:20px}.chronicle-mark{font-size:100px}footer{gap:14px;flex-wrap:wrap;font-size:8px}}
 @media(max-width:420px){.nav{gap:10px}.nav a{font-size:7px}.eyebrow{font-size:8px}.hero-kicker{letter-spacing:.22em}.subtitle{letter-spacing:.42em}.chronicle-mark{display:none}}
+\n@import url("/archive-effects.css");\n

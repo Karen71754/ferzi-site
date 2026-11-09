@@ -30,3 +30,15 @@ body.cursor-active .cursor-aura{opacity:1}
 @media(pointer:coarse){.cursor-aura{display:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}.archive-opening{display:none}}
 @media(max-width:600px){.archive-stamp{width:82px;height:82px;font-size:8px;right:18px;top:18px}.sound-toggle{right:12px;bottom:12px;padding:10px 12px}.identity:after{bottom:12px}}
+
+.nickname-intro{max-width:700px;color:#9f927b;font-size:13px;line-height:1.8;margin:-12px 0 25px}
+.nickname-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:25px 0 65px}
+.nickname-card{position:relative;min-height:190px;padding:22px;border:1px solid rgba(216,182,109,.3);background:linear-gradient(145deg,#1b150e,#0c0b09);overflow:hidden}
+.nickname-card:after{content:"";position:absolute;right:-30px;bottom:-45px;width:130px;height:130px;border:1px solid rgba(216,182,109,.1);border-radius:50%;box-shadow:0 0 0 12px rgba(216,182,109,.025),0 0 0 25px rgba(216,182,109,.02)}
+.nickname-index,.nickname-note{font-size:8px;letter-spacing:.18em;color:#aa8d55}
+.nickname-card h3{font:25px Georgia,serif;letter-spacing:.08em;color:#ead18f;margin:18px 0 12px}
+.nickname-description{min-height:40px;color:#a99d85;font:12px/1.7 Georgia,serif}
+.nickname-note{display:inline-block;margin-top:7px;color:#76664a}
+.chigur-placeholder{display:grid;place-items:center;background:radial-gradient(ellipse,#3b171b,#10090a 70%)}
+.chigur-placeholder span{font:150px Georgia,serif;color:#a83a42;text-shadow:0 0 45px #78121c}
+@media(max-width:760px){.nickname-grid{grid-template-columns:1fr}.nickname-card{min-height:165px}}
